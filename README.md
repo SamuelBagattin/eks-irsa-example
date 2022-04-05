@@ -1,5 +1,8 @@
 # AWS EKS IAM Roles for Service Accounts Example
 
+Source code associated to [my article on IRSA in EKS](https://medium.com/@samuelbagattin/5d8fa16aafba?source=friends_link&sk=a3401b2b9890fbf2ddacb6853200ae9b)
+
+
 - [Infrastructure](./infrastructure) : Terraform root module used to create the AWS resources (EKS cluster, IAM)
 - [Kubernetes Resources](./kubernetes_resources) : Pod and Service Account creation
 - [App](./app) : Golang application that runs in the Pod
