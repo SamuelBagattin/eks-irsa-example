@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+  labels:
+    app: my-pod
+spec:
+  serviceAccountName: my-serviceaccount
+  containers:
+    - image: ghcr.io/samuelbagattin/medium-irsa-article:master
+      name: medium-irsa-article
+      imagePullPolicy: Always
+
