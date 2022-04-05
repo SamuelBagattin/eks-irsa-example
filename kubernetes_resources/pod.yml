@@ -7,7 +7,7 @@ metadata:
 spec:
   serviceAccountName: my-serviceaccount
   containers:
-    - image: ghcr.io/samuelbagattin/medium-irsa-article:master
+    - image: ghcr.io/samuelbagattin/eks-irsa-example:master
       name: medium-irsa-article
       imagePullPolicy: Always
 
